@@ -11,7 +11,7 @@ public class task3 {
 
         char operation = getOperation();
 
-        int result = calc(num1,num2,operation);
+        double result = calc(num1,num2,operation);
 
         System.out.println("Result: "+result);
     }
@@ -42,8 +42,8 @@ public class task3 {
         return operation;
     }
 
-    public static int calc(int num1, int num2, char operation){
-        int result = 0;
+    public static double calc(double num1, double num2, char operation){
+        double result = 0;
         switch (operation){
             case '+':
                 result = num1+num2;
