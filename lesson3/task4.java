@@ -29,7 +29,7 @@ public class task4 {
             int j = 1;
             while(isDone == false){
                 System.out.printf("Введите автора и название книги для жанра %s: ", list.get(i).get(0));
-                String entered = scanner.next();
+                String entered = scanner.nextLine();
                 if(entered.contains("done") || entered.contains("Done")){
                     System.out.println("Done is written");
                     isDone = true;
